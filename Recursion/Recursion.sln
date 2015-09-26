@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TowerOfHanoi", "TowerOfHanoi\01.TowerOfHanoi.csproj", "{F08EC01C-3B55-433F-AFE4-B2433F3F0CA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.NestedLoopsToRecursion", "NestedLoopsToRecursion\02.NestedLoopsToRecursion.csproj", "{1E7FF2D3-84A2-460E-9381-DD1A5ADE0353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CombinationsWithRepetition", "CombinationsWithRepetition\03.CombinationsWithRepetition.csproj", "{6F683C58-3A2B-46C5-B05C-3382C0E47FFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F08EC01C-3B55-433F-AFE4-B2433F3F0CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F08EC01C-3B55-433F-AFE4-B2433F3F0CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F08EC01C-3B55-433F-AFE4-B2433F3F0CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7FF2D3-84A2-460E-9381-DD1A5ADE0353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7FF2D3-84A2-460E-9381-DD1A5ADE0353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7FF2D3-84A2-460E-9381-DD1A5ADE0353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7FF2D3-84A2-460E-9381-DD1A5ADE0353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F683C58-3A2B-46C5-B05C-3382C0E47FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F683C58-3A2B-46C5-B05C-3382C0E47FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F683C58-3A2B-46C5-B05C-3382C0E47FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F683C58-3A2B-46C5-B05C-3382C0E47FFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

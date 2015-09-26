@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class TowerOfHanoi
 {
@@ -13,7 +11,8 @@ class TowerOfHanoi
 
     static void Main()
     {
-        int numberOfDisks = 3;
+        Console.Write("Number of disks: ");
+        int numberOfDisks = int.Parse(Console.ReadLine());
         source = new Stack<int>(Enumerable.Range(1, numberOfDisks).Reverse());
         PrintPegs();
         MoveDisks(numberOfDisks, source, destination, spare);
@@ -21,15 +20,11 @@ class TowerOfHanoi
 
     private static void MoveDisks(int bottomDisk, Stack<int>sourceRod, Stack<int>destinationRod, Stack<int>spareRod)
     {
-        if (bottomDisk < 1)
-        {
-            return;
-        }
-        else if (bottomDisk == 1)
+        if (bottomDisk == 1)
         {
             ++stepsTaken;
             destinationRod.Push(sourceRod.Pop());
-            Console.WriteLine("Step #{0}: moved disk: {1}", stepsTaken, bottomDisk);
+            Console.WriteLine("Step #{0}: Mved disk: {1}", stepsTaken, bottomDisk);
             PrintPegs();
         }
         else
@@ -37,7 +32,7 @@ class TowerOfHanoi
             MoveDisks(bottomDisk - 1, sourceRod, spareRod, destinationRod);
             ++stepsTaken;
             destinationRod.Push(sourceRod.Pop());
-            Console.WriteLine("Steps {0}: moved disk: {1}", stepsTaken, bottomDisk);
+            Console.WriteLine("Steps {0}: Moved disk: {1}", stepsTaken, bottomDisk);
             PrintPegs();
             MoveDisks(bottomDisk - 1, spareRod, destinationRod, sourceRod);
         }
