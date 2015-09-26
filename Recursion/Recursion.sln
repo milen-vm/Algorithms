@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CombinationsWithoutRepet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PathsBetweenCellsInMatrix", "PathsBetweenCellsInMatrix\05.PathsBetweenCellsInMatrix.csproj", "{BB373589-7354-49D2-B1CF-698F42D661A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ConnectedAreasInAMatrix", "ConnectedAreasInAMatrix\06.ConnectedAreasInAMatrix.csproj", "{2ACDF575-9E9F-48F2-9409-16AD72793651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BB373589-7354-49D2-B1CF-698F42D661A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB373589-7354-49D2-B1CF-698F42D661A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB373589-7354-49D2-B1CF-698F42D661A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACDF575-9E9F-48F2-9409-16AD72793651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACDF575-9E9F-48F2-9409-16AD72793651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACDF575-9E9F-48F2-9409-16AD72793651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACDF575-9E9F-48F2-9409-16AD72793651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
