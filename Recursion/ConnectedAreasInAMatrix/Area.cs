@@ -8,6 +8,13 @@ class Area : IComparable<Area>
 
     public int Size { get; set; }
 
+    public Area(int startRow, int startCol, int size)
+    {
+        this.StartRow = startRow;
+        this.StartCol = startCol;
+        this.Size = size;
+    }
+
     public override string ToString()
     {
         return string.Format("({0}, {1}), size: {2}", this.StartRow, this.StartCol, this.Size);
