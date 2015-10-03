@@ -1,6 +1,6 @@
 ﻿using System;
 
-class VariationsWithoutRepetition
+class CombinationsWithoutRepetition
 {
     static void Main()
     {
@@ -9,12 +9,11 @@ class VariationsWithoutRepetition
         Console.Write("Elements from set k: ");
         int k = int.Parse(Console.ReadLine());
         int[] array = new int[k];
-        bool[] used = new bool[n + 1];
 
-        GenerateVariations(array, n, used);
+        GenerateCombinations(array, n);
     }
 
-    private static void GenerateVariations(int[] array, int sizeOfSet, bool[] used, int index = 0)
+    private static void GenerateCombinations(int[] array, int sizeOfSet, int index = 0, int startNum = 1)
     {
         if (index >= array.Length)
         {
@@ -22,15 +21,11 @@ class VariationsWithoutRepetition
         }
         else
         {
-            for (int i = 1; i <= sizeOfSet; i++)
+            for (int i = startNum; i <= sizeOfSet; i++)
             {
-                if (!used[i])
-                {
-                    array[index] = i;
-                    used[i] = true;
-                    GenerateVariations(array, sizeOfSet, used, index + 1);
-                    used[i] = false;
-                }
+                array[index] = i;
+                GenerateCombinations(array, sizeOfSet, index + 1, startNum + 1);
+                startNum++;
             }
         }
     }
