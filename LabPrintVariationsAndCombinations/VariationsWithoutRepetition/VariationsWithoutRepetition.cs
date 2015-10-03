@@ -9,11 +9,12 @@ class VariationsWithRepetition
         Console.Write("Elements from set k: ");
         int k = int.Parse(Console.ReadLine());
         int[] array = new int[k];
+        bool[] used = new bool[n + 1];
 
-        GenerateVariations(array, n);
+        GenerateVariations(array, n, used);
     }
 
-    private static void GenerateVariations(int[] array, int sizeOfSet, int index = 0)
+    private static void GenerateVariations(int[] array, int sizeOfSet, bool[] used, int index = 0)
     {
         if (index >= array.Length)
         {
@@ -23,8 +24,13 @@ class VariationsWithRepetition
         {
             for (int i = 1; i <= sizeOfSet; i++)
             {
-                array[index] = i;
-                GenerateVariations(array, sizeOfSet, index + 1);
+                if (!used[i])
+                {
+                    array[index] = i;
+                    used[i] = true;
+                    GenerateVariations(array, sizeOfSet, used, index + 1);
+                    used[i] = false;
+                }
             }
         }
     }

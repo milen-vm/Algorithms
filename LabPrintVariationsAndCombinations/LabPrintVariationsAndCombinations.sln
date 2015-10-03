@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariationsWithRepetition", "VariationsWithRepetition\VariationsWithRepetition.csproj", "{21813BBC-D9D4-4E13-A18C-A76507D0DF71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.VariationsWithRepetition", "VariationsWithRepetition\01.VariationsWithRepetition.csproj", "{21813BBC-D9D4-4E13-A18C-A76507D0DF71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.VariationsWithoutRepetition", "VariationsWithoutRepetition\02.VariationsWithoutRepetition.csproj", "{15F16FE0-9CBA-4792-A64D-84A20F1A98DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{21813BBC-D9D4-4E13-A18C-A76507D0DF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21813BBC-D9D4-4E13-A18C-A76507D0DF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21813BBC-D9D4-4E13-A18C-A76507D0DF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F16FE0-9CBA-4792-A64D-84A20F1A98DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F16FE0-9CBA-4792-A64D-84A20F1A98DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F16FE0-9CBA-4792-A64D-84A20F1A98DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F16FE0-9CBA-4792-A64D-84A20F1A98DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
