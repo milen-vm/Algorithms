@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ExtendCableNetwork", "ExtendCableNetwork\01.ExtendCableNetwork.csproj", "{41AD1440-8E0F-44B9-AC1F-D1AC3B0C451E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ModifiedKruskalAlgorithm", "ModifiedKruskalAlgorithm\02.ModifiedKruskalAlgorithm.csproj", "{70E8329B-A92A-4591-8342-4C0E11BE9AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MostReliablePath", "MostReliablePath\03.MostReliablePath.csproj", "{872D1C19-9701-4520-B5E1-92B349FE07FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41AD1440-8E0F-44B9-AC1F-D1AC3B0C451E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AD1440-8E0F-44B9-AC1F-D1AC3B0C451E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41AD1440-8E0F-44B9-AC1F-D1AC3B0C451E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41AD1440-8E0F-44B9-AC1F-D1AC3B0C451E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E8329B-A92A-4591-8342-4C0E11BE9AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E8329B-A92A-4591-8342-4C0E11BE9AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E8329B-A92A-4591-8342-4C0E11BE9AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E8329B-A92A-4591-8342-4C0E11BE9AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872D1C19-9701-4520-B5E1-92B349FE07FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872D1C19-9701-4520-B5E1-92B349FE07FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872D1C19-9701-4520-B5E1-92B349FE07FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872D1C19-9701-4520-B5E1-92B349FE07FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
